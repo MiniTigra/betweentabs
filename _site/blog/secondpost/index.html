@@ -1,0 +1,741 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>This is my first post.</title>
+		<meta name="description" content="This is a post on My Blog about agile frameworks.">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Between Tabs">
+		
+		
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+* { box-sizing: border-box; }
+
+header nav .nav {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.tab-btn:hover {
+    transform: translateY(-5px);
+    background: var(--color-gray-20);
+}
+
+.homepage-grid {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 5rem;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.archive-link span {
+    display: inline-block;
+    transform: rotate(20deg);
+    font-size: 1.5rem;
+    color: var(--accent-play);
+}
+
+:root {
+    --font-family: -apple-system, system-ui, sans-serif;
+    --font-family-monospace: "Courier New", Courier, monospace;
+    
+    --background-color: #fdfaf3; 
+    --text-color: #2b2b2b;
+    --color-gray-20: #e0dacc;
+    --color-gray-90: #2b2b2b;
+    --text-color-link: #6d28d9; 
+    --text-color-link-visited: #4c1d95; 
+    --text-color-link-active: #db2777;
+    --accent-work: #2563eb; 
+    --accent-play: #d97706; 
+    --hand-drawn: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+body {
+    margin: 0 auto;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    max-width: 68em;
+    padding: 0 2rem;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    header {
+    padding: 2rem 0 1rem 0;
+    margin-bottom: 1rem;   
+    }
+}
+
+.home-link {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: var(--font-family-monospace);
+    text-decoration: none;
+    color: var(--text-color) !important;
+    transform: rotate(-1.5deg);
+    display: inline-block;
+}
+
+.tab-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 2rem 0 4rem 0;
+    border-bottom: 4px solid var(--color-gray-90);
+}
+
+.tab-btn {
+    padding: 12px 24px;
+    border: 3px solid var(--color-gray-90);
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+    text-decoration: none;
+    color: var(--text-color) !important;
+    font-weight: bold;
+    font-family: var(--font-family-monospace);
+}
+
+.tab-btn.active {
+    background: var(--color-gray-90);
+    color: var(--background-color) !important;
+    box-shadow: inset 0 -4px 0 var(--accent-play);
+}
+
+.sidecar-box {
+    padding: 1.5rem;
+    border: 3px solid var(--color-gray-90);
+    border-radius: var(--hand-drawn);
+    box-shadow: 8px 8px 0px var(--color-gray-90);
+    background: var(--background-color);
+    margin-bottom: 3rem;
+    transform: rotate(1deg);
+}
+
+.play-section { transform: rotate(-1.5deg); }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0 1rem 0;
+    border-bottom: 2px dashed var(--color-gray-20);
+    margin-bottom: 2rem;
+}
+
+header nav .nav {
+    display: flex;
+    gap: 2rem; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-color);
+    font-family: var(--font-family-monospace);
+    transition: all 0.2s ease;
+}
+
+.nav-item a:hover {
+    color: var(--text-color-link);
+    text-decoration: underline wavy var(--accent-play);
+}
+
+.nav-item a[aria-current="page"] {
+    border-bottom: 3px solid var(--accent-work);
+    padding-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+}
+
+.post-title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    
+    display: inline;
+    
+    text-decoration: underline;
+    text-decoration-color: var(--accent-play);
+    text-decoration-thickness: 5px;
+    
+    text-underline-offset: 8px; 
+    
+    text-decoration-skip-ink: auto; 
+    
+    line-height: 1.6;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.post-header {
+    display: block;
+    margin-bottom: 2rem;
+}
+.post-content h2, .post-content h3 {
+    margin-top: 2.5rem;
+    font-family: var(--font-family-monospace);
+    color: var(--text-color);
+}
+
+.post-content h2 {
+    border-left: 8px solid var(--accent-work);
+    padding-left: 1rem;
+}
+
+blockquote {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--color-gray-20);
+    border-radius: var(--hand-drawn);
+    border: 2px solid var(--color-gray-90);
+    font-style: italic;
+    position: relative;
+}
+
+blockquote::before {
+    content: "“";
+    font-size: 4rem;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    opacity: 0.2;
+}
+
+pre {
+    background: #1e293b;
+    color: #f1f5f9;
+    padding: 1.5rem;
+    border-radius: 12px;
+    overflow-x: auto;
+    border: 2px solid var(--color-gray-90);
+    box-shadow: 4px 4px 0px var(--color-gray-90);
+    margin: 2rem 0;
+}
+
+code {
+    font-family: var(--font-family-monospace);
+}
+
+figure {
+    margin: 2.5rem 0;
+    text-align: center;
+}
+
+figure img {
+    border: 3px solid var(--color-gray-90);
+    border-radius: 8px;
+    box-shadow: 10px 10px 0px var(--color-gray-20);
+}
+
+figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.post-container {
+    max-width: 45rem;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+
+.post-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem; 
+    font-family: var(--font-family-monospace);
+}
+
+.post-tag {
+    color: var(--accent-work);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-content {
+    line-height: 1.8;
+}
+
+.post-content h2 {
+    margin-top: 3rem;
+    font-family: var(--font-family-monospace);
+    border-bottom: 3px dashed var(--color-gray-20);
+    display: inline-block;
+}
+
+.post-content img {
+    border: 2px solid var(--color-gray-90);
+    border-radius: 4px;
+    box-shadow: 5px 5px 0px var(--color-gray-20);
+    margin: 2rem auto;
+    display: block;
+    position: relative;
+}
+
+.post-navigation {
+    margin-top: 5rem;
+    padding: 2rem;
+    border: 3px solid var(--color-gray-90);
+    border-radius: var(--hand-drawn);
+    
+    background: var(--background-color); 
+    box-shadow: 8px 8px 0px var(--color-gray-90);
+}
+@media (prefers-color-scheme: dark) {
+    .post-navigation {
+        background: #1e293b;
+        border-color: var(--color-gray-20);
+    }
+}
+
+.links-nextprev {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    gap: 2rem;
+}
+
+.nav-label {
+    display: block;
+    font-family: var(--font-family-monospace);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.links-nextprev a {
+    color: var(--text-color-link) !important;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 4px;
+}
+
+.links-nextprev a:hover {
+    text-decoration: underline wavy var(--accent-play);
+}
+
+.concept-callout {
+    border-left: 10px solid var(--accent-play);
+    background: var(--color-gray-20);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-family: var(--font-family-monospace);
+    border-radius: 0 15px 15px 0;
+}
+
+.postlist {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.postlist-item {
+	position: relative;
+	margin-bottom: 3rem;
+	padding-left: 2rem;
+	border-left: 3px dashed var(--color-gray-20);
+	transition: border-color 0.3s ease;
+}
+
+.postlist-item:hover {
+	border-left-color: var(--accent-play);
+}
+
+.postlist-item::before {
+	content: "";
+	position: absolute;
+	left: -10px;
+	top: 0.5rem;
+	width: 16px;
+	height: 16px;
+	background: var(--background-color);
+	border: 3px solid var(--color-gray-90);
+	border-radius: 50% 40% 60% 45%;
+	z-index: 1;
+}
+
+.postlist-item:hover::before {
+	background: var(--accent-play);
+	transform: scale(1.2) rotate(10deg);
+}
+
+.postlist-link {
+	display: inline-block;
+	font-size: 1.6rem;
+	font-weight: 800;
+	line-height: 1.2;
+	text-decoration: none;
+	color: var(--text-color-link) !important;
+	margin-bottom: 0.25rem;
+}
+
+.postlist-link:hover {
+	text-decoration: underline wavy var(--text-color-link-active);
+	text-underline-offset: 4px;
+}
+
+.postlist-date {
+	display: block;
+	font-family: var(--font-family-monospace);
+	font-size: 0.85rem;
+	color: var(--text-color);
+	opacity: 0.7;
+	text-transform: lowercase;
+}
+
+@media (prefers-color-scheme: dark) {
+	.postlist-item {
+		border-left-color: var(--color-gray-20);
+	}
+	.postlist-item:hover {
+		border-left-color: var(--text-color-link);
+	}
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 2rem 0;
+    border: 3px solid var(--color-gray-90);
+    border-radius: 8px;
+    box-shadow: 8px 8px 0px var(--color-gray-20);
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.source-box {
+    margin-top: 4rem;
+    font-size: 0.95rem;
+    border-left: 10px solid var(--accent-work);
+    background: var(--color-gray-20);
+    transform: rotate(-0.5deg);
+}
+
+.source-box a {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    text-decoration: underline wavy var(--accent-play);
+}
+
+@media (prefers-color-scheme: dark) {
+    .source-box {
+        background: #1e293b;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #0f172a; 
+        --text-color: #f1f5f9;
+        --color-gray-20: #334155;
+        --color-gray-90: #f1f5f9;
+
+        --text-color-link: #2dd4bf; 
+        --text-color-link-visited: #e879f9; 
+        --text-color-link-active: #fb7185;
+        
+        --accent-work: #60a5fa;
+        --accent-play: #fbbf24;
+    }
+}
+
+a {
+    color: var(--text-color-link);
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+}
+
+a:visited {
+    color: var(--text-color-link-visited);
+}
+
+a:hover, a:active {
+    color: var(--text-color-link-active);
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}</style>
+		
+	</head>
+	<body>
+		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Between Tabs</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main">
+			<heading-anchors>
+				
+
+
+
+<article class="post-container">
+	<header class="post-header">
+	<h1 class="post-title" id="this-is-my-first-post">This is my first post.</h1>
+	<ul class="post-metadata">
+		<li><time datetime="2018-05-01">01 May 2018</time></li>
+		<li><a href="/tags/another-tag/" class="post-tag">#another tag</a></li>
+	</ul>
+	</header>
+
+	<div class="post-content">
+		<p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.</p>
+<p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+<h2 id="section-header">Section Header</h2>
+<p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+<pre class="language-diff-js" tabindex="0"><code class="language-diff-js"><span class="token unchanged language-js"><span class="token prefix unchanged"> </span><span class="token comment">// this is a command</span>
+<span class="token prefix unchanged"> </span><span class="token keyword">function</span> <span class="token function">myCommand</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+</span><span class="token inserted-sign inserted language-js"><span class="token prefix inserted">+</span>  <span class="token keyword">let</span> counter <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+</span><span class="token deleted-sign deleted language-js"><span class="token prefix deleted">-</span>  <span class="token keyword">let</span> counter <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
+</span><span class="token unchanged language-js"><span class="token prefix unchanged"> </span>  counter<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token prefix unchanged"> </span><span class="token punctuation">}</span>
+</span>
+<span class="token unchanged language-js"><span class="token prefix unchanged"> </span><span class="token comment">// Test with a line break above this line.</span>
+<span class="token prefix unchanged"> </span>console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token string">'Test'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</span></code></pre>
+
+	</div>
+	<nav class="post-navigation">
+		<ul class="links-nextprev">
+				<li class="links-nextprev-next">
+					<span class="nav-label">Next Tab →</span>
+					<a href="/blog/firstpost/">Shrinking the Tactile Experience: A Dive into Miniature Haptics</a>
+				</li>
+			
+		</ul>
+	</nav>
+</article>
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em>
+			</p>
+		</footer>
+
+		<!-- This page `/blog/secondpost/` was built on 2026-01-19T10:30:23.467Z -->
+		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
+	</body>
+</html>
