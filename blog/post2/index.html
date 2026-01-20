@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hytale: The Early Access to Update 1 Catch-Up Guide</title>
+		<meta name="description" content="Everything you need to know about the current state of Orbis, from the initial Early Access launch to the major changes in Update 1.">
+		<link rel="alternate" href="/betweentabs/feed/feed.xml" type="application/atom+xml" title="Between Tabs">
+		
+		
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+* { box-sizing: border-box; }
+
+header nav .nav {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.tab-btn:hover {
+    transform: translateY(-5px);
+    background: var(--color-gray-20);
+}
+
+.homepage-grid {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    gap: 5rem;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.archive-link span {
+    display: inline-block;
+    transform: rotate(20deg);
+    font-size: 1.5rem;
+    color: var(--accent-play);
+}
+
+:root {
+    --font-family: -apple-system, system-ui, sans-serif;
+    --font-family-monospace: "Courier New", Courier, monospace;
+    
+    --background-color: #fdfaf3; 
+    --text-color: #2b2b2b;
+    --color-gray-20: #e0dacc;
+    --color-gray-90: #2b2b2b;
+    --text-color-link: #6d28d9; 
+    --text-color-link-visited: #4c1d95; 
+    --text-color-link-active: #db2777;
+    --accent-work: #2563eb; 
+    --accent-play: #d97706; 
+    --hand-drawn: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+body {
+    margin: 0 auto;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    max-width: 68em;
+    padding: 0 2rem;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    header {
+    padding: 2rem 0 1rem 0;
+    margin-bottom: 1rem;   
+    }
+}
+
+.home-link {
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: var(--font-family-monospace);
+    text-decoration: none;
+    color: var(--text-color) !important;
+    transform: rotate(-1.5deg);
+    display: inline-block;
+}
+
+.tab-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 2rem 0 4rem 0;
+    border-bottom: 4px solid var(--color-gray-90);
+}
+
+.tab-btn {
+    padding: 12px 24px;
+    border: 3px solid var(--color-gray-90);
+    border-bottom: none;
+    border-radius: 15px 15px 0 0;
+    text-decoration: none;
+    color: var(--text-color) !important;
+    font-weight: bold;
+    font-family: var(--font-family-monospace);
+}
+
+.tab-btn.active {
+    background: var(--color-gray-90);
+    color: var(--background-color) !important;
+    box-shadow: inset 0 -4px 0 var(--accent-play);
+}
+
+.sidecar-box {
+    padding: 1.5rem;
+    border: 3px solid var(--color-gray-90);
+    border-radius: var(--hand-drawn);
+    box-shadow: 8px 8px 0px var(--color-gray-90);
+    background: var(--background-color);
+    margin-bottom: 3rem;
+    transform: rotate(1deg);
+}
+
+.play-section { transform: rotate(-1.5deg); }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0 1rem 0;
+    border-bottom: 2px dashed var(--color-gray-20);
+    margin-bottom: 2rem;
+}
+
+header nav .nav {
+    display: flex;
+    gap: 2rem; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-color);
+    font-family: var(--font-family-monospace);
+    transition: all 0.2s ease;
+}
+
+.nav-item a:hover {
+    color: var(--text-color-link);
+    text-decoration: underline wavy var(--accent-play);
+}
+
+.nav-item a[aria-current="page"] {
+    border-bottom: 3px solid var(--accent-work);
+    padding-bottom: 4px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+}
+
+.post-title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    
+    display: inline;
+    
+    text-decoration: underline;
+    text-decoration-color: var(--accent-play);
+    text-decoration-thickness: 5px;
+    
+    text-underline-offset: 8px; 
+    
+    text-decoration-skip-ink: auto; 
+    
+    line-height: 1.6;
+}
+
+.post-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.post-header {
+    display: block;
+    margin-bottom: 2rem;
+}
+.post-content h2, .post-content h3 {
+    margin-top: 2.5rem;
+    font-family: var(--font-family-monospace);
+    color: var(--text-color);
+}
+
+.post-content h2 {
+    border-left: 8px solid var(--accent-work);
+    padding-left: 1rem;
+}
+
+blockquote {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--color-gray-20);
+    border-radius: var(--hand-drawn);
+    border: 2px solid var(--color-gray-90);
+    font-style: italic;
+    position: relative;
+}
+
+blockquote::before {
+    content: "“";
+    font-size: 4rem;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    opacity: 0.2;
+}
+
+pre {
+    background: #1e293b;
+    color: #f1f5f9;
+    padding: 1.5rem;
+    border-radius: 12px;
+    overflow-x: auto;
+    border: 2px solid var(--color-gray-90);
+    box-shadow: 4px 4px 0px var(--color-gray-90);
+    margin: 2rem 0;
+}
+
+code {
+    font-family: var(--font-family-monospace);
+}
+
+figure {
+    margin: 2.5rem 0;
+    text-align: center;
+}
+
+figure img {
+    border: 3px solid var(--color-gray-90);
+    border-radius: 8px;
+    box-shadow: 10px 10px 0px var(--color-gray-20);
+}
+
+figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    font-style: italic;
+    opacity: 0.7;
+}
+
+.post-container {
+    max-width: 45rem;
+    margin: 0 auto;
+    padding-top: 0.5rem;
+}
+
+.post-metadata {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem; 
+    font-family: var(--font-family-monospace);
+}
+
+.post-tag {
+    color: var(--accent-work);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-content {
+    line-height: 1.8;
+}
+
+.post-content h2 {
+    margin-top: 3rem;
+    font-family: var(--font-family-monospace);
+    border-bottom: 3px dashed var(--color-gray-20);
+    display: inline-block;
+}
+
+.post-content img {
+    border: 2px solid var(--color-gray-90);
+    border-radius: 4px;
+    box-shadow: 5px 5px 0px var(--color-gray-20);
+    margin: 2rem auto;
+    display: block;
+    position: relative;
+}
+
+.post-navigation {
+    margin-top: 5rem;
+    padding: 2rem;
+    border: 3px solid var(--color-gray-90);
+    border-radius: var(--hand-drawn);
+    
+    background: var(--background-color); 
+    box-shadow: 8px 8px 0px var(--color-gray-90);
+}
+@media (prefers-color-scheme: dark) {
+    .post-navigation {
+        background: #1e293b;
+        border-color: var(--color-gray-20);
+    }
+}
+
+.links-nextprev {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    gap: 2rem;
+}
+
+.nav-label {
+    display: block;
+    font-family: var(--font-family-monospace);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+.links-nextprev a {
+    color: var(--text-color-link) !important;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 4px;
+}
+
+.links-nextprev a:hover {
+    text-decoration: underline wavy var(--accent-play);
+}
+
+.concept-callout {
+    border-left: 10px solid var(--accent-play);
+    background: var(--color-gray-20);
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-family: var(--font-family-monospace);
+    border-radius: 0 15px 15px 0;
+}
+
+.postlist {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.postlist-item {
+	position: relative;
+	margin-bottom: 3rem;
+	padding-left: 2rem;
+	border-left: 3px dashed var(--color-gray-20);
+	transition: border-color 0.3s ease;
+}
+
+.postlist-item:hover {
+	border-left-color: var(--accent-play);
+}
+
+.postlist-item::before {
+	content: "";
+	position: absolute;
+	left: -10px;
+	top: 0.5rem;
+	width: 16px;
+	height: 16px;
+	background: var(--background-color);
+	border: 3px solid var(--color-gray-90);
+	border-radius: 50% 40% 60% 45%;
+	z-index: 1;
+}
+
+.postlist-item:hover::before {
+	background: var(--accent-play);
+	transform: scale(1.2) rotate(10deg);
+}
+
+.postlist-link {
+	display: inline-block;
+	font-size: 1.6rem;
+	font-weight: 800;
+	line-height: 1.2;
+	text-decoration: none;
+	color: var(--text-color-link) !important;
+	margin-bottom: 0.25rem;
+}
+
+.postlist-link:hover {
+	text-decoration: underline wavy var(--text-color-link-active);
+	text-underline-offset: 4px;
+}
+
+.postlist-date {
+	display: block;
+	font-family: var(--font-family-monospace);
+	font-size: 0.85rem;
+	color: var(--text-color);
+	opacity: 0.7;
+	text-transform: lowercase;
+}
+
+@media (prefers-color-scheme: dark) {
+	.postlist-item {
+		border-left-color: var(--color-gray-20);
+	}
+	.postlist-item:hover {
+		border-left-color: var(--text-color-link);
+	}
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin: 2rem 0;
+    border: 3px solid var(--color-gray-90);
+    border-radius: 8px;
+    box-shadow: 8px 8px 0px var(--color-gray-20);
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.source-box {
+    margin-top: 4rem;
+    font-size: 0.95rem;
+    border-left: 10px solid var(--accent-work);
+    background: var(--color-gray-20);
+    transform: rotate(-0.5deg);
+}
+
+.source-box a {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    text-decoration: underline wavy var(--accent-play);
+}
+
+@media (prefers-color-scheme: dark) {
+    .source-box {
+        background: #1e293b;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #0f172a; 
+        --text-color: #f1f5f9;
+        --color-gray-20: #334155;
+        --color-gray-90: #f1f5f9;
+
+        --text-color-link: #2dd4bf; 
+        --text-color-link-visited: #e879f9; 
+        --text-color-link-active: #fb7185;
+        
+        --accent-work: #60a5fa;
+        --accent-play: #fbbf24;
+    }
+}
+
+a {
+    color: var(--text-color-link);
+    text-underline-offset: 3px;
+    transition: color 0.2s ease;
+}
+
+a:visited {
+    color: var(--text-color-link-visited);
+}
+
+a:hover, a:active {
+    color: var(--text-color-link-active);
+}
+
+.mini-list li.is-expired {
+    opacity: 0.4;
+    text-decoration: line-through;
+    display: none;
+}
+
+.embed-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+    width: 100%;
+}
+
+.embed-container .twitter-tweet {
+    transform: rotate(0.5deg);
+}
+
+.post-content img {
+    max-width: 100%;    
+    height: auto;       
+    display: block;     
+    margin: 2rem auto;  
+    border-radius: 8px; 
+}
+
+.post-content picture img {
+    width: 100%;
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}</style>
+		
+	</head>
+	<body>
+		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+
+		<link rel="alternate" href="/betweentabs/betweentabs/feed/feed.xml" type="application/atom+xml" title="Between Tabs">
+
+		<header>
+			
+			<a href="/betweentabs/" class="home-link">Between Tabs</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					
+					<li class="nav-item"><a href="/betweentabs/">Home</a></li>
+					
+					<li class="nav-item"><a href="/betweentabs/blog/">Archive</a></li>
+					
+					<li class="nav-item"><a href="/betweentabs/about/">About</a></li>
+					
+					<li class="nav-item"><a href="/betweentabs/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main">
+			<heading-anchors>
+				
+
+
+
+<article class="post-container">
+	<header class="post-header">
+	<h1 class="post-title" id="hytale-the-early-access-to-update-1-catch-up-guide">Hytale: The Early Access to Update 1 Catch-Up Guide</h1>
+	<ul class="post-metadata">
+		<li><time datetime="2026-01-19">19 January 2026</time></li>
+			<li><a href="/betweentabs/betweentabs/tags/games/" class="post-tag">#games</a></li>
+			<li><a href="/betweentabs/betweentabs/tags/hytale/" class="post-tag">#hytale</a></li>
+			<li><a href="/betweentabs/betweentabs/tags/newreleases/" class="post-tag">#newreleases</a></li>
+			<li><a href="/betweentabs/betweentabs/tags/updates/" class="post-tag">#updates</a></li>
+	</ul>
+	</header>
+
+	<div class="post-content">
+		<p>It’s finally here! After years of trailers, engine shifts, and even a cancellation scare, stepping into Orbis feels surreal. For those who didn't jump in when Early Access first went on sale, or for those returning to see what <strong>Update 1</strong> changed, here is the essential catch-up.</p>
+<p><picture><source type="image/avif" srcset="/betweentabs/blog/post2/pka1e0ct5H-1920.avif 1920w"><source type="image/webp" srcset="/betweentabs/blog/post2/pka1e0ct5H-1920.webp 1920w"><img loading="lazy" decoding="async" src="/betweentabs/blog/post2/pka1e0ct5H-1920.jpeg" alt="triceratops and raptor in underground jungle" width="1920" height="1080"></picture></p>
+<h3 id="1-the-feel-of-the-world">1. The Feel of the World</h3>
+<p>Hytale sets itself apart from traditional block games by leaning heavily into its RPG side. The controls are fluid, but the depth is in the Weapon Arts.</p>
+<ul>
+<li><strong>Combat Strategy:</strong> Combat is no longer just about cooldown timings. Different weapons have distinct areas of attack, unique moves, and special abilities. For instance, holding the attack button (M1) performs a <strong>Charged Strike</strong>.</li>
+<li><strong>Quick on Your Feet:</strong> Some special attacks have addtional effect, like the charged dagger strike, which grants a higher leap that you can use to scale higher terrain with the right timing for additional mobility.</li>
+<li><strong>Signature Energy:</strong> This is the core of Hytale's combat. Unlike a standard cooldown, your <strong>Signature Energy</strong> increases with each successful strike. It only dissipates when you trigger your weapon's <strong>Special Attack</strong> (Press Q) or when you switch items. This creates a rhythmic &quot;build-and-spend&quot; playstyle that gives every encounter the strategic feel Minecraft was missing.</li>
+<li><strong>Forgotten Temple:</strong> This are is vital to Hytale’s primary progression. Turning in memories of creatures you've encountered unlocks high-tier recipes, most notably backpack upgrades and portal gates.</li>
+<li><strong>The World Zones:</strong> Currently, Orbis consists of four playable biomes called Zones. Currently Zone 1 is the most polished, so you can find friendly NPC villages scattered throughout. However, interaction is still limited as you can only trade with the Tribe Leader and the same recipes can be accessed by talking to the Kweebec at the Forgotten Temple.</li>
+</ul>
+<p><picture><source type="image/avif" srcset="/betweentabs/blog/post2/pxR4Y_gCzs-1920.avif 1920w"><source type="image/webp" srcset="/betweentabs/blog/post2/pxR4Y_gCzs-1920.webp 1920w"><img loading="lazy" decoding="async" src="/betweentabs/blog/post2/pxR4Y_gCzs-1920.jpeg" alt="zones concept art" width="1920" height="1080"></picture></p>
+<h3 id="2-survival-and-mechanics-the-reality-check">2. Survival &amp; Mechanics: The Reality Check</h3>
+<p>Since Hytale is still in early access, some systems are noticeably more &quot;raw&quot; than others.</p>
+<ul>
+<li><strong>The Wild Mount System:</strong> There is currently no animal taming system. While you can mount and control horses (and skeleton horses!) without a saddle, they aren't &quot;yours.&quot; If you dismount, they will freak out and run away. You don't need a saddle to control the direction, but since you're unable to place blocks while ruiding, keeping a stallion as a companion is currently tedious and unsustainable.</li>
+<li><strong>Magic &amp; Essence:</strong> Magic staffs exist, but they aren't infinite. They require Fire or Ice Essence to use. To keep your fire staff fueled, you’ll need to head to the volcanic biome and farm elemental enemies.</li>
+<li><strong>Fishing Traps:</strong> Every so often your fishing traps will get jammed with garbage. While I’m hoping future updates will include ways to recycle them for other materials, they currently have no utility in the vanilla game.</li>
+<li><strong>The Azure Kelp Mystery:</strong> If you're looking to craft a portal, you'll notice one of the ingredients is Azure Kelp. Don't waste your time at the bottom of the ocean and find the next blue thing around - Azure Kelp is found exclusively in the lakes of the blue forest biomes.</li>
+</ul>
+<p><picture><source type="image/avif" srcset="/betweentabs/blog/post2/q0w3Eny8bA-1920.avif 1920w"><source type="image/webp" srcset="/betweentabs/blog/post2/q0w3Eny8bA-1920.webp 1920w"><img loading="lazy" decoding="async" src="/betweentabs/blog/post2/q0w3Eny8bA-1920.jpeg" alt="lake in a blue forest at night" width="1920" height="1080"></picture></p>
+<h3 id="3-modding-potential">3. Modding Potential</h3>
+<p>Seeing so many flexible creative tools embedded into the game truly shows that Hytale was made by modders, for modders.</p>
+<ul>
+<li><strong>Creative Suite:</strong> The Early Release comes with a custom editor and fully functional modding tools (like the Model Maker and Scripted Brushes) that can be accessed through Creative Mode. You can remix over 100 spawnable models or use the Prefab Editor to build and save structures as blueprints instantly.</li>
+<li><strong>Machinima is Back:</strong> The built-in cinematic camera tools allow animators and modders to record and showcase their creations in-game from any angle. Embedded tools allow you to place camera actors and set keyframes to animate trajectories directly in-game. It’s essentially a built-in movie studio.</li>
+</ul>
+<h3 id="4-what-s-new-in-update-1">4. What’s New in Update 1?</h3>
+<p>This wasn't just a bug-fix patch; it added the first wave of &quot;World Content&quot; since launch.</p>
+<ul>
+<li><strong>Underground Jungles:</strong> Underground jungles now have DINOSAURS!!! They currently use placeholder behaviors, but they add a massive threat level to deep exploration. The biome will also feature other NPCS, bringing much-needed life to the world. (you'll need to generate new areas to see them!)</li>
+<li><strong>Elemental Immunities:</strong> Fire-themed creatures (like those found beneath volcanoes) are now officially immune to fire damage and skeletons no longer take drowning damage.</li>
+<li><strong>Quality of Life:</strong> You can now sleep starting at 7:30 PM (instead of 9:00 PM) and benches can pull materials from nearby chests from much further away.</li>
+<li><strong>Line of Sight:</strong> As of Update 1, weapon attacks now properly check for line of sight, preventing &quot;hitting through walls&quot; glitches. This patch also specifically fixed an exploit where &quot;Signature Attacks&quot; could be used without the required energy, bringing the balance back to the intended &quot;build-up&quot; loop.</li>
+<li><strong>Hungry for More:</strong> Raw fruits/veggies now only grant &quot;Health Regen I,&quot; making cooked meals much more important for survival. As many players have previously pointed out, Minecraft's hunger system only exists to punish the player, rather than reward them, something Hytale is trying to avoid. Simon has previously stated that Hypixel will be seeking inspiration from games like Valheim as they brainstorm this.</li>
+</ul>
+<div class="embed-container">
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Food can be way more interesting than a simple hunger system.<br>In the long term we will explore mixing ingredients for food that gives unique buffs, use activity-based meals like a mining stew for faster swings, prep combat meals, feed NPC villages, get quality system tied with…</p>&mdash; Simon (@Simon_Hypixel) <a href="https://twitter.com/Simon_Hypixel/status/1993635933636235422?ref_src=twsrc%5Etfw">November 26, 2025</a></blockquote>
+</div>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<h3 id="5-server-hosting">5. Server Hosting</h3>
+<ul>
+<li>
+<p><strong>Playing With Friends:</strong> Joining friends is as simple as sharing an access code. Though playing this way means the world can only be accessed when the host player is online, like in Don't Starve Together.</p>
+</li>
+<li>
+<p><strong>Server Hosting:</strong> Who if not the creator of Hypixel would know about the importance of servers. For those curious about self-hosting, the Hytale server architecture is surprisingly lightweight. The server runs on Java 25 and a friend of mine is currently hosting our group of 5 on a Raspberry Pi.</p>
+</li>
+<li>
+<p><strong>Performance Note:</strong> Update 1 introduced &quot;BBR congestion control&quot; for the server’s QUIC protocol, which has significantly stabilized connections for home-hosted servers.</p>
+</li>
+</ul>
+<hr>
+<h3 id="my-next-project-the-herbalist-s-grimoire">My Next Project: The Herbalist’s Grimoire</h3>
+<p>I’m currently poking around the new scripting tools to see if I can implement a custom magic mechanic with the goal of turning all those &quot;clutter&quot; plants into ingredients for a magic system. Herbalists, stay tuned!</p>
+<div class="concept-callout source-box">
+<strong>Sources:</strong> Hytale Blog, @Simon_Hypixel
+<a href="https://hytale.com/news/2026/1/hytale-is-finally-here">Hytale is Finally Here!</a>
+<a href="https://hytale.com/news/2026/1/hytale-patch-notes-update-1">Patch Notes - Update 1</a>
+<a href="https://x.com/Simon_Hypixel">Founder of Hypixel on Xitter</a>
+</div>
+	</div>
+	<nav class="post-navigation">
+		<ul class="links-nextprev">
+				<li class="links-nextprev-prev">
+					<span class="nav-label">← Previous Tab</span>
+					<a href="/betweentabs/blog/firstpost/">Shrinking the Tactile Experience: A Dive into Miniature Haptics</a>
+				</li>
+			
+		</ul>
+	</nav>
+</article>
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p>
+				<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em>
+			</p>
+		</footer>
+
+		<!-- This page `/blog/post2/` was built on 2026-01-20T06:32:33.699Z -->
+		<script type="module" src="/betweentabs/dist/cC8wS6ZjFU.js"></script>
+	</body>
+</html>
