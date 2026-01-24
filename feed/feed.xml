@@ -58,11 +58,11 @@
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;The Hotbar Diamond:&lt;/strong&gt; A new indicator and higher contrast make it way easier to see which slot you have active, especially in the bright sands of Zone 2.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Inventory Shortcuts:&lt;/strong&gt; These keybinds are now your best friends and you&#39;ll easily memorize them since tooltips now display when hovering over &amp;quot;quick action&amp;quot; buttons.
-&lt;strong&gt;Q&lt;/strong&gt; - Put All
-&lt;strong&gt;E&lt;/strong&gt; - Pull All
-&lt;strong&gt;R&lt;/strong&gt; - Quickstack
-&lt;strong&gt;T&lt;/strong&gt; - Sort by Type
+&lt;li&gt;&lt;strong&gt;Inventory Shortcuts:&lt;/strong&gt; These keybinds are now your best friends and you&#39;ll easily memorize them since tooltips now display when hovering over &amp;quot;quick action&amp;quot; buttons.&lt;br&gt;
+&lt;strong&gt;Q&lt;/strong&gt; - Put All&lt;br&gt;
+&lt;strong&gt;E&lt;/strong&gt; - Pull All&lt;br&gt;
+&lt;strong&gt;R&lt;/strong&gt; - Quickstack&lt;br&gt;
+&lt;strong&gt;T&lt;/strong&gt; - Sort by Type&lt;br&gt;
 &lt;strong&gt;Shift + Click&lt;/strong&gt; - Directly equips armor if the slot is empty.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Ophidiophobia Mode:&lt;/strong&gt; If you hate snakes, toggle this in Accessibility to turn them into &amp;quot;Hatworms.&amp;quot; (Yes, really.)&lt;/li&gt;
 &lt;/ul&gt;
