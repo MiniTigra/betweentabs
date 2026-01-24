@@ -5,11 +5,97 @@
   <subtitle>HCI, VR, and digital art reflections.</subtitle>
   <link href="https://minitigra.github.io/betweentabs/feed/feed.xml" rel="self" />
   <link href="https://minitigra.github.io/betweentabs/betweentabs/" />
-  <updated>2026-01-19T00:00:00Z</updated>
+  <updated>2026-01-24T00:00:00Z</updated>
   <id>https://minitigra.github.io/betweentabs/betweentabs/</id>
   <author>
     <name>MiniTigra</name>
   </author>
+  <entry>
+    <title>From Bone Piles to Thorium: Navigating Hytale after Update 2</title>
+    <link href="https://minitigra.github.io/betweentabs/blog/hytale-update2/" />
+    <updated>2026-01-24T00:00:00Z</updated>
+    <id>https://minitigra.github.io/betweentabs/blog/hytale-update2/</id>
+    <content type="html">&lt;p&gt;Step aside, Zone 1! Orbis just got a lot more technical. Hot on the heels of the first patch, Update 2 has arrived with a focus on refining the &amp;quot;survival&amp;quot; in survival-RPG. Whether you&#39;re looking to raise an army of the undead or tired of accidentally destroying your Eternal crops, here is what you need to know.&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/B-tU7Z68N1-844.avif 844w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/B-tU7Z68N1-844.webp 844w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/B-tU7Z68N1-844.png&quot; alt=&quot;You can now use the grimoire to raise a skeleton army!&quot; width=&quot;844&quot; height=&quot;313&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1-dark-magic-necromancy-is-here&quot;&gt;1. Dark Magic: Necromancy is Here!&lt;/h3&gt;
+&lt;p&gt;The most exciting addition is a rare drop from the &lt;strong&gt;large Praetorian Skeleton&lt;/strong&gt;. Players can now obtain a &lt;strong&gt;Grimoire&lt;/strong&gt; with the spell &amp;quot;Rekindle Embers&amp;quot;, previously known as the &amp;quot;Void Grimoire&amp;quot;, a powerful relic that allows you to raise a skeletal minion army from any nearby bone piles to fight by your side.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Where to Find it:&lt;/strong&gt; You can find this skeleton boss in &lt;strong&gt;brown encampments&lt;/strong&gt; throughout the &lt;strong&gt;Emerald Grove&lt;/strong&gt;, usually in arenas enclosed by stone walls and green-flame braziers. He also has a chance to spawn in the catacombs beneath the &lt;strong&gt;Burial Grounds&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;How to Use:&lt;/strong&gt; To activate the grimoire, you should be standing near a Pile of Bones (or several!) and each pile in your viscinity will spawn one skeletal minion, who will serve you for 5 minutes before despawning, or until you die. For solo players, this is huge. These minions act as a localized tanking system, letting you manage aggro while exploring the deeper, more dangerous parts of Orbis. However, &lt;strong&gt;the book is consumed after summoning&lt;/strong&gt;, so save your pocket army for particularly tough battles!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bringing the Vision to Life:&lt;/strong&gt; Looking back at Hytale&#39;s concept art, I found a sketch of an &amp;quot;Undead Praetorian&amp;quot;, where the prototype of this boss was originally armed with a large battleaxe and round shield. However, the bulky, armored boss we are now hunting for loot is armed with a greatsword and shield and typically accompanied by a handful of smaller skeletons.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/fxNfr9DYrM-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/fxNfr9DYrM-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/fxNfr9DYrM-1920.jpeg&quot; alt=&quot;Undead Praetorian concept art&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Currently, the Grimoire might feel very rough and unbalanced. Simon addressed the players&#39; concerns in a post on his Xitter, where he clarified that the current Grimoire is not the final magic system. It’s a &amp;quot;temporary bad&amp;quot; item meant to show off summoning capabilities. A proper mana and spell system is coming later.&lt;/p&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Just want to add a note, the grimoire is NOT the magic system at all. &lt;br&gt;&lt;br&gt;Seeing reddit go full panic mode thinking this is what we have in mind for magic is kinda insane, this is just a random drop fun item, it will evolve over time.&lt;br&gt;&lt;br&gt;We will have a proper mana and spell system in…&lt;/p&gt;&amp;mdash; Simon (@Simon_Hypixel) &lt;a href=&quot;https://twitter.com/Simon_Hypixel/status/2014269452833960380?ref_src=twsrc%5Etfw&quot;&gt;January 22, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;h3 id=&quot;2-tool-progression-rebalance&quot;&gt;2. Tool Progression Rebalance&lt;/h3&gt;
+&lt;p&gt;If you’ve been trying to mine Adamantite with a basic pick, you&#39;re going to notice a change. Hytale is tightening the gear-ladder:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tier Requirement:&lt;/strong&gt; You can no longer &amp;quot;skip&amp;quot; tools. Adamantite now strictly requires a Thorium or Cobalt pickaxe.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Efficiency Matters:&lt;/strong&gt; Lower-tier tools now deal significantly less damage than high-tier ores. Upgrading isn&#39;t just a suggestion anymore, it&#39;s a requirement to avoid standing at a block for five minutes, as picking up a higher quality pickaxe significantly reduces the amount of hits required.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ore Buff:&lt;/strong&gt; Good news for the grind—ore placement has been refactored across all zones, specifically increasing yields in the Devastated Lands, so at least the dangerous journey is more justified now. Disclaimer: you will need to &lt;strong&gt;explore new chunks for old worlds to see this change&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/huCv2b7Po1-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/huCv2b7Po1-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/huCv2b7Po1-1920.jpeg&quot; alt=&quot;Skeleton Soldier enermies in Devastated Lands&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h3 id=&quot;3-protecting-the-harvest&quot;&gt;3. Protecting the Harvest&lt;/h3&gt;
+&lt;p&gt;Seeing so many flexible creative tools embedded into the game truly shows that Hytale was made by modders, for modders.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Let There Be Light:&lt;/strong&gt; No more farming in the dark! You can finally hold a torch in your offhand while using a Hoe or Seeds.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TRULY Eternal Crops:&lt;/strong&gt; Eternal crops no longer take accidental weapon damage (R.I.P. to my previous carrot patch) and they drop their seeds back when harvested.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Renewable Petals:&lt;/strong&gt; Yellow Petals are now farmable from Sunflower Seeds. Since petals can be used to craft lighter variants of Cloth Blocks, the &amp;quot;Textiles&amp;quot; category just became a lot more accessible for builders.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bountiful Soil:&lt;/strong&gt; Tilled soil now lasts 1.2 to 1.5 days, and decay under grown crops has been fixed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/TbBep8ZdMv-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/TbBep8ZdMv-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/TbBep8ZdMv-1920.png&quot; alt=&quot;Farming at night feels much safer now that you can hold a torch while using a hoe or holding seed bags&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;h3 id=&quot;4-ui-and-quality-of-life&quot;&gt;4. UI &amp;amp; Quality of Life&lt;/h3&gt;
+&lt;p&gt;The team is clearly listening to the &amp;quot;Minecraft vs. Hytale&amp;quot; comparisons by adding features we&#39;ve wanted for years:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;New Cosmetics &amp;amp; Community Partnership:&lt;/strong&gt; Simon announced that Hytale is now working with Violet, one of the community&#39;s first modders, to create official cosmetics. It’s a huge win for the community to see a &amp;quot;modder-to-official-creator&amp;quot; pipeline in action. Newly added cosmetics include &lt;strong&gt;Bandit Masks, Blindfolds, and even Orc or Vampire mouths&lt;/strong&gt;, as well as updates to some of the existing hairstyles.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Pleased to announce that we are now working with Violet to create official cosmetics for Hytale! She was one of the first Hytale modders and is now the first to join us! Keeping our promise to hire from within the community! &lt;a href=&quot;https://t.co/JY3qmOXP6G&quot;&gt;https://t.co/JY3qmOXP6G&lt;/a&gt;&lt;/p&gt;&amp;mdash; Simon (@Simon_Hypixel) &lt;a href=&quot;https://twitter.com/Simon_Hypixel/status/2014438303374647317?ref_src=twsrc%5Etfw&quot;&gt;January 22, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The Hotbar Diamond:&lt;/strong&gt; A new indicator and higher contrast make it way easier to see which slot you have active, especially in the bright sands of Zone 2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inventory Shortcuts:&lt;/strong&gt; These keybinds are now your best friends and you&#39;ll easily memorize them since tooltips now display when hovering over &amp;quot;quick action&amp;quot; buttons.
+&lt;strong&gt;Q&lt;/strong&gt; - Put All
+&lt;strong&gt;E&lt;/strong&gt; - Pull All
+&lt;strong&gt;R&lt;/strong&gt; - Quickstack
+&lt;strong&gt;T&lt;/strong&gt; - Sort by Type
+&lt;strong&gt;Shift + Click&lt;/strong&gt; - Directly equips armor if the slot is empty.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ophidiophobia Mode:&lt;/strong&gt; If you hate snakes, toggle this in Accessibility to turn them into &amp;quot;Hatworms.&amp;quot; (Yes, really.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&quot;whats-next-automation-worldgen-and-real-magic&quot;&gt;What&#39;s Next: Automation, WorldGen, and &amp;quot;Real&amp;quot; Magic&lt;/h3&gt;
+&lt;p&gt;Simon has been discussing a lot of his plans for future updates and improvements on Xitter lately regarding where the game is headed and upcoming opportunities to join the cause and aid the game&#39;s development:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Saving Avatars:&lt;/strong&gt; Simon confirmed the next update will add a system for saving &amp;amp; loading cosmetic sets to quickly change between avatars.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot; data-conversation=&quot;none&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Preview for next update (or the one after)! Save/load avatar. &lt;a href=&quot;https://t.co/ED1WOjTxMl&quot;&gt;pic.twitter.com/ED1WOjTxMl&lt;/a&gt;&lt;/p&gt;&amp;mdash; Simon (@Simon_Hypixel) &lt;a href=&quot;https://twitter.com/Simon_Hypixel/status/2015118826308878778?ref_src=twsrc%5Etfw&quot;&gt;January 24, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WorldGen V2:&lt;/strong&gt; As work continues on a more advanced world generation system, Simon envisions hundreds of biomes created by a new wave of 15 World Designers. The goal is to make Orbis feel handcrafted yet infinitely mysterious, ensuring every journey feels new.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Seeing artists learn and create with world gen V2 is incredible; the vision from many years ago is becoming a reality. All of this with no code, just a node editor that can be learned by anyone in just a few days. &lt;br&gt;&lt;br&gt;What I envision for Hytale&amp;#39;s world generation is to maintain… &lt;a href=&quot;https://t.co/haHEZ1sZkT&quot;&gt;https://t.co/haHEZ1sZkT&lt;/a&gt;&lt;/p&gt;&amp;mdash; Simon (@Simon_Hypixel) &lt;a href=&quot;https://twitter.com/Simon_Hypixel/status/2015090645476520210?ref_src=twsrc%5Etfw&quot;&gt;January 24, 2026&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Automation &amp;amp; Physics:&lt;/strong&gt; They are hiring developers for a system built around gears, belts, and pulleys. They want a world where players can build complex, optimized machines that feel like a natural extension of the game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;embed-container&quot;&gt;
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hiring automation &amp;amp; tinkering devs/designers for Hytale!&lt;br&gt;&lt;br&gt;We’re exploring physics-driven systems built around real, physical parts. Gears, shafts, belts, pulleys, rotation, motion, power generation and transmission, logic, and machines that players can assemble, break, and…&lt;/p&gt;&amp;mdash; Simon (@Simon_Hypixel) &lt;a href=&quot;https://twitter.com/Simon_Hypixel/status/2014855542091485554?ref_src=twsrc%5Etfw&quot;&gt;January 24, 2026&lt;/a&gt;&lt;/blockquote&gt; 
+&lt;/div&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+&lt;div class=&quot;concept-callout source-box&quot;&gt;
+&lt;strong&gt;Sources:&lt;/strong&gt; Hytale Blog, @Simon_Hypixel
+&lt;a href=&quot;https://hytale.com/news/2026/1/hytale-patch-notes-update-2&quot;&gt;Patch Notes - Update 2&lt;/a&gt;
+&lt;a href=&quot;https://x.com/Simon_Hypixel&quot;&gt;Founder of Hypixel on Xitter&lt;/a&gt;
+&lt;/div&gt;</content>
+  </entry>
   <entry>
     <title>Hytale: The Early Access to Update 1 Catch-Up Guide</title>
     <link href="https://minitigra.github.io/betweentabs/blog/hytale-update1/" />
