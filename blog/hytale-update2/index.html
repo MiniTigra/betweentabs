@@ -76,10 +76,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    header {
     padding: 2rem 0 1rem 0;
     margin-bottom: 1rem;   
-    }
 }
 
 .home-link {
@@ -727,9 +725,6 @@ pre[class*="language-diff-"] {
 	</head>
 	<body>
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
-
-		<link rel="alternate" href="/betweentabs/betweentabs/feed/feed.xml" type="application/atom+xml" title="Between Tabs">
-
 		<header>
 			
 			<a href="/betweentabs/" class="home-link">Between Tabs</a>
@@ -792,36 +787,44 @@ pre[class*="language-diff-"] {
 <li><strong>Ore Buff:</strong> Good news for the grind - ore placement has been refactored across all zones, specifically increasing yields in the Devastated Lands, so at least the dangerous journey is more justified now. Disclaimer: you will need to <strong>explore new chunks for old worlds to see this change</strong>.</li>
 </ul>
 <div class="sidecar-box work-section">
-  <h3 id="mining-tiers">⛏️ Mining Progression</h3>
-  <p class="section-desc">Update 2 Requirements</p>
-  <table class="mini-list" style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+  <h3 id="mining-tiers">⛏️ Ore Tier Logic</h3>
+  <p class="section-desc">Hytale Update 2 Requirements</p>
+  <table class="mini-list" style="width: 100%; border-collapse: collapse; font-size: 0.85rem;">
     <thead>
       <tr style="border-bottom: 2px solid var(--color-gray-90);">
-        <th style="text-align: left; padding: 5px;">Target Ore</th>
-        <th style="text-align: left; padding: 5px;">Min. Pickaxe</th>
+        <th style="text-align: left; padding: 4px;">Ore Type</th>
+        <th style="text-align: left; padding: 4px;">Required Pickaxe</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td style="padding: 5px;">Copper</td>
-        <td style="padding: 5px;">Stone / Wood</td>
+        <td style="padding: 4px;">Stone / Coal</td>
+        <td style="padding: 4px;">Wood / Bare Hands</td>
       </tr>
       <tr style="background: var(--color-gray-20);">
-        <td style="padding: 5px;">Iron</td>
-        <td style="padding: 5px;">Copper</td>
+        <td style="padding: 4px;">Copper</td>
+        <td style="padding: 4px;">Stone</td>
       </tr>
       <tr>
-        <td style="padding: 5px;">Thorium</td>
-        <td style="padding: 5px;">Iron</td>
+        <td style="padding: 4px;">Iron / Quartz</td>
+        <td style="padding: 4px;">Copper</td>
+      </tr>
+      <tr style="background: var(--color-gray-20);">
+        <td style="padding: 4px;">Silver / Gold</td>
+        <td style="padding: 4px;">Iron</td>
+      </tr>
+      <tr>
+        <td style="padding: 4px;">Thorium / Cobalt</td>
+        <td style="padding: 4px;">Iron / Steel</td>
       </tr>
       <tr style="background: var(--color-gray-20); font-weight: bold; color: var(--accent-work);">
-        <td style="padding: 5px;">Adamantite</td>
-        <td style="padding: 5px;">Thorium / Cobalt</td>
+        <td style="padding: 4px;">Adamantite</td>
+        <td style="padding: 4px;">Thorium / Cobalt</td>
       </tr>
     </tbody>
   </table>
-  <p style="font-size: 0.75rem; margin-top: 10px; opacity: 0.8;">
-    <em>Note: Using a lower-tier tool now deals negligible damage. Don't skip steps!</em>
+  <p style="font-size: 0.7rem; margin-top: 8px; opacity: 0.8; line-height: 1.2;">
+    <em>Update 2 Note: Lower-tier tools now deal significantly less damage to high-tier blocks. Upgrading is now a strict requirement for progression.</em>
   </p>
 </div>
 <p><picture><source type="image/avif" srcset="/betweentabs/blog/hytale-update2/Fhshi92vtR-1920.avif 1920w"><source type="image/webp" srcset="/betweentabs/blog/hytale-update2/Fhshi92vtR-1920.webp 1920w"><img loading="lazy" decoding="async" src="/betweentabs/blog/hytale-update2/Fhshi92vtR-1920.png" alt="Skeleton Soldier enermies in Devastated Lands" width="1920" height="1080"></picture></p>
@@ -905,7 +908,7 @@ pre[class*="language-diff-"] {
 			</p>
 		</footer>
 
-		<!-- This page `/blog/hytale-update2/` was built on 2026-01-25T21:30:47.137Z -->
+		<!-- This page `/blog/hytale-update2/` was built on 2026-01-25T21:44:46.418Z -->
 		<script type="module" src="/betweentabs/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>
