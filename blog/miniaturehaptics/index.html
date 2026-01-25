@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tagged &#39;hytale&#39;</title>
-		<meta name="description" content="From Boston ren faires and D&amp;D lore to CS deep-dives and animation finds, I’m sharing the cool, weird, and technical shinies I notice while wandering between worlds. Embrace curiosity!">
+		<title>Shrinking the Tactile Experience: A Dive into Miniature Haptics</title>
+		<meta name="description" content="Exploring how CHI researchers are mapping full-body virtual avatars onto the palm of your hand.">
 		<link rel="alternate" href="/betweentabs/feed/feed.xml" type="application/atom+xml" title="Between Tabs">
 		
 		
@@ -554,6 +554,174 @@ a:hover, a:active {
     font-size: 0.75rem;
     display: inline;
     margin-left: 10px;
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 	</head>
@@ -583,64 +751,64 @@ a:hover, a:active {
 		<main id="main">
 			<heading-anchors>
 				
-<h1 id="tagged-hytale">Tagged “hytale”</h1>
 
 
 
-	
+<article class="post-container">
+	<header class="post-header">
+	<h1 class="post-title" id="shrinking-the-tactile-experience-a-dive-into-miniature-haptics">Shrinking the Tactile Experience: A Dive into Miniature Haptics</h1>
+	<ul class="post-metadata">
+		<li><time datetime="2026-01-19">19 January 2026</time></li>
+			<li><a href="/betweentabs/betweentabs/tags/academia/" class="post-tag">#academia</a></li>
+			<li><a href="/betweentabs/betweentabs/tags/tech/" class="post-tag">#tech</a></li>
+			<li><a href="/betweentabs/betweentabs/tags/hci/" class="post-tag">#hci</a></li>
+	</ul>
+	</header>
 
-
-<ol reversed="" class="postlist">
-	
-	
-	
-
-	
-		
-		
-		<li class="postlist-item ">
-			<div class="post-card-content">
-				<a href="/betweentabs/blog/hytale-update2/" class="postlist-link">
-					From Bone Piles to Thorium: Navigating Hytale after Update 2
-				</a>
-				<time class="postlist-date" datetime="2026-01-24">
-					January 2026
-				</time>
-				
-				
-					<p class="postlist-description">Master the new mining progression, optimize your farm, and raise a skeleton army with Necromancy.</p>
-				
-			</div>
-		</li>
-	
-	
-	
-	
-
-	
-		
-		
-		<li class="postlist-item ">
-			<div class="post-card-content">
-				<a href="/betweentabs/blog/hytale-update1/" class="postlist-link">
-					Hytale: The Early Access to Update 1 Catch-Up Guide
-				</a>
-				<time class="postlist-date" datetime="2026-01-19">
-					January 2026
-				</time>
-				
-				
-					<p class="postlist-description">Everything you need to know about the current state of Orbis, from the initial Early Access launch to the major changes in Update 1.</p>
-				
-			</div>
-		</li>
-	
-</ol>
-
-
-
-<p>See <a href="/betweentabs/tags/">all tags</a>.</p>
-
+	<div class="post-content">
+		<p>Imagine you're 8 years old again, sitting in the back of a car, wiggling your fingers against the window to make a little hand-person perform sick parkour moves along the power lines.</p>
+<p>It turns out that childhood habit is actually a recognized interaction technique called <strong>Finger Walking in Place (FWIP)</strong>. While digging through <strong>CHI Conference</strong> archives for a Human-Computer Interaction class last semester, I found a project from National Taiwan University that takes this imaginary play and turns it into a high-tech reality: <strong>Miniature Haptics</strong>.</p>
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/joO-F2Gzlm0?si=6mNQtRoMlLU7tOul" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+</div>
+<p><strong>The core idea? Instead of building massive, expensive treadmills to simulate walking in VR, why not just &quot;shrink&quot; the person and map their body onto their hand?</strong></p>
+<p>As a huge fan of Ready Player One, I've always viewed total digital immersion as the &quot;north star&quot; for tech. We’ve gotten great at showing digital worlds, but we’re still missing the <em>feeling</em>. Most home systems are limited to basic controller vibrations with the same &quot;buzz&quot; representing a sword clashing or a car engine idling - completely different tactile experiences! <strong>Miniature Haptics</strong> solves this by leveraging the &quot;Embodiment Illusion&quot; to make your hand feel what your character feels.</p>
+<h2 id="the-concept-finger-walking-as-embodiment">The Concept: Finger Walking as Embodiment</h2>
+<p>The researchers found that people are surprisingly good at mapping their mental skeletal model to their fingers. In their mapping study, there was a massive overlap in how users envisioned their &quot;hand-person&quot;:</p>
+<ul>
+<li><strong>Index and Middle Fingers:</strong> Become your legs.</li>
+<li><strong>The Back of the Hand:</strong> Becomes your torso.</li>
+<li><strong>The Wrist:</strong> Becomes your head.</li>
+</ul>
+<div class="concept-callout">
+<strong>Why this matters:</strong> By shrinking the scale, we can experience things that would be dangerous or impossible at human-scale, like the physical impact of a football hitting your head or walking across rapidly shifting terrain without 4D theaters or motion simulation theme park attractions.</div>
+<h2 id="kicking-miniature-footballs">Kicking Miniature Footballs</h2>
+<p>To test this, the team built a haptic display using <strong>6 micro linear actuators</strong> with tiny footballs attached. When your virtual avatar &quot;kicks&quot; a ball, the actuator physically strikes your finger at the exact moment of impact.</p>
+<p>In their study, this &quot;Miniature Haptics&quot; approach was <strong>2.3 times more preferred</strong> than a standard vibrating game controller. Users reported that the physical sensation made the experience feel significantly more enjoyable, realistic, and intuitive compared to monotonic vibrations.</p>
+<h2 id="why-i-m-obsessed">Why I'm Obsessed</h2>
+<p>As someone who spends a lot of time thinking about game design and animation, this opens up a huge door. Imagine playing a game where you don't just see your OC move but also you feel the weight of their steps through your fingertips as you navigate a forest.</p>
+<p>As VR gaming and 3D Vtubers are on the rise, I see this as a great way to physically bridge the gap between ourselves and the digital worlds we build.</p>
+<div class="concept-callout source-box">
+<strong>Source:</strong> Wang et al. (2020). Miniature Haptics: Experiencing Haptic Feedback through Hand-based and Embodied Avatars. CHI '20.
+<p>You can find the full paper and technical specifications on the ACM Digital Library here:</p>
+<p><a href="https://dl.acm.org/doi/10.1145/3313831.3376292">Miniature Haptics: Experiencing Haptic Feedback through Hand-based and Embodied Avatars</a></p>
+</div>
+	</div>
+	<nav class="post-navigation">
+		<ul class="links-nextprev">
+				<li class="links-nextprev-prev">
+					<span class="nav-label">← Previous Tab</span>
+					<a href="/betweentabs/blog/hytale-update1/">Hytale: The Early Access to Update 1 Catch-Up Guide</a>
+				</li>
+			
+				<li class="links-nextprev-next">
+					<span class="nav-label">Next Tab →</span>
+					<a href="/betweentabs/blog/hytale-update2/">From Bone Piles to Thorium: Navigating Hytale after Update 2</a>
+				</li>
+			
+		</ul>
+	</nav>
+</article>
 			</heading-anchors>
 		</main>
 
@@ -650,7 +818,7 @@ a:hover, a:active {
 			</p>
 		</footer>
 
-		<!-- This page `/tags/hytale/` was built on 2026-01-25T21:25:00.875Z -->
+		<!-- This page `/blog/miniaturehaptics/` was built on 2026-01-25T21:25:00.637Z -->
 		<script type="module" src="/betweentabs/dist/cC8wS6ZjFU.js"></script>
 	</body>
 </html>

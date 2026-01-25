@@ -16,7 +16,7 @@
     <updated>2026-01-24T00:00:00Z</updated>
     <id>https://minitigra.github.io/betweentabs/blog/hytale-update2/</id>
     <content type="html">&lt;p&gt;Step aside, Zone 1! Orbis just got a lot more technical. Hot on the heels of the first patch, Update 2 has arrived with a focus on refining the &amp;quot;survival&amp;quot; in survival-RPG. Whether you&#39;re looking to raise an army of the undead or tired of accidentally destroying your Eternal crops, here is what you need to know.&lt;/p&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/B-tU7Z68N1-844.avif 844w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/B-tU7Z68N1-844.webp 844w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/B-tU7Z68N1-844.png&quot; alt=&quot;You can now use the grimoire to raise a skeleton army!&quot; width=&quot;844&quot; height=&quot;313&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/pQgqFPjdhy-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/pQgqFPjdhy-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/pQgqFPjdhy-1920.png&quot; alt=&quot;You can now use the grimoire to raise a skeleton army!&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;h3 id=&quot;1-dark-magic-necromancy-is-here&quot;&gt;1. Dark Magic: Necromancy is Here!&lt;/h3&gt;
 &lt;p&gt;The most exciting addition is a rare drop from the &lt;strong&gt;large Praetorian Skeleton&lt;/strong&gt;. Players can now obtain a &lt;strong&gt;Grimoire&lt;/strong&gt; with the spell &amp;quot;Rekindle Embers&amp;quot;, previously known as the &amp;quot;Void Grimoire&amp;quot;, a powerful relic that allows you to raise a skeletal minion army from any nearby bone piles to fight by your side.&lt;/p&gt;
 &lt;ul&gt;
@@ -25,21 +25,23 @@
 &lt;li&gt;&lt;strong&gt;Bringing the Vision to Life:&lt;/strong&gt; Looking back at Hytale&#39;s concept art, I found a sketch of an &amp;quot;Undead Praetorian&amp;quot;, where the prototype of this boss was originally armed with a large battleaxe and round shield. However, the bulky, armored boss we are now hunting for loot is armed with a greatsword and shield and typically accompanied by a handful of smaller skeletons.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/fxNfr9DYrM-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/fxNfr9DYrM-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/fxNfr9DYrM-1920.jpeg&quot; alt=&quot;Undead Praetorian concept art&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
-&lt;p&gt;Currently, the Grimoire might feel very rough and unbalanced. Simon addressed the players&#39; concerns in a post on his Xitter, where he clarified that the current Grimoire is not the final magic system. It’s a &amp;quot;temporary bad&amp;quot; item meant to show off summoning capabilities. A proper mana and spell system is coming later.&lt;/p&gt;
+&lt;div class=&quot;concept-callout&quot;&gt;
+&lt;strong&gt;Work in Progress:&lt;/strong&gt; Currently, the Grimoire might feel very rough and unbalanced. Simon addressed the players&#39; concerns by clarifying that the current Grimoire is not the final magic system. It’s a &quot;temporary bad&quot; item meant to show off summoning capabilities. A proper mana and spell system is coming later.
+&lt;/div&gt;
 &lt;div class=&quot;embed-container&quot;&gt;
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Just want to add a note, the grimoire is NOT the magic system at all. &lt;br&gt;&lt;br&gt;Seeing reddit go full panic mode thinking this is what we have in mind for magic is kinda insane, this is just a random drop fun item, it will evolve over time.&lt;br&gt;&lt;br&gt;We will have a proper mana and spell system in…&lt;/p&gt;&amp;mdash; Simon (@Simon_Hypixel) &lt;a href=&quot;https://twitter.com/Simon_Hypixel/status/2014269452833960380?ref_src=twsrc%5Etfw&quot;&gt;January 22, 2026&lt;/a&gt;&lt;/blockquote&gt;
 &lt;/div&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
 &lt;h3 id=&quot;2-tool-progression-rebalance&quot;&gt;2. Tool Progression Rebalance&lt;/h3&gt;
-&lt;p&gt;If you’ve been trying to mine Adamantite with a basic pick, you&#39;re going to notice a change. Hytale is tightening the gear-ladder:&lt;/p&gt;
+&lt;p&gt;If you’ve been trying to mine Adamantite with a basic pick, you&#39;re going to notice a change. Hytale is tightening the gear ladder:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Tier Requirement:&lt;/strong&gt; You can no longer &amp;quot;skip&amp;quot; tools. Adamantite now strictly requires a Thorium or Cobalt pickaxe.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Efficiency Matters:&lt;/strong&gt; Lower-tier tools now deal significantly less damage than high-tier ores. Upgrading isn&#39;t just a suggestion anymore, it&#39;s a requirement to avoid standing at a block for five minutes, as picking up a higher quality pickaxe significantly reduces the amount of hits required.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ore Buff:&lt;/strong&gt; Good news for the grind—ore placement has been refactored across all zones, specifically increasing yields in the Devastated Lands, so at least the dangerous journey is more justified now. Disclaimer: you will need to &lt;strong&gt;explore new chunks for old worlds to see this change&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ore Buff:&lt;/strong&gt; Good news for the grind - ore placement has been refactored across all zones, specifically increasing yields in the Devastated Lands, so at least the dangerous journey is more justified now. Disclaimer: you will need to &lt;strong&gt;explore new chunks for old worlds to see this change&lt;/strong&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/huCv2b7Po1-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/huCv2b7Po1-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/huCv2b7Po1-1920.jpeg&quot; alt=&quot;Skeleton Soldier enermies in Devastated Lands&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/Fhshi92vtR-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/Fhshi92vtR-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update2/Fhshi92vtR-1920.png&quot; alt=&quot;Skeleton Soldier enermies in Devastated Lands&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;h3 id=&quot;3-protecting-the-harvest&quot;&gt;3. Protecting the Harvest&lt;/h3&gt;
-&lt;p&gt;Seeing so many flexible creative tools embedded into the game truly shows that Hytale was made by modders, for modders.&lt;/p&gt;
+&lt;p&gt;If you’re the type of player who finds a zen-like peace in the rows of a Stardew Valley farm, Hytale’s initial survival quirks might have felt a bit... abrasive. Thankfully, Update 2 focuses on changes that make the farm feel like a sanctuary rather than a chore.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Let There Be Light:&lt;/strong&gt; No more farming in the dark! You can finally hold a torch in your offhand while using a Hoe or Seeds.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;TRULY Eternal Crops:&lt;/strong&gt; Eternal crops no longer take accidental weapon damage (R.I.P. to my previous carrot patch) and they drop their seeds back when harvested.&lt;/li&gt;
@@ -90,10 +92,46 @@
 &lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Hiring automation &amp;amp; tinkering devs/designers for Hytale!&lt;br&gt;&lt;br&gt;We’re exploring physics-driven systems built around real, physical parts. Gears, shafts, belts, pulleys, rotation, motion, power generation and transmission, logic, and machines that players can assemble, break, and…&lt;/p&gt;&amp;mdash; Simon (@Simon_Hypixel) &lt;a href=&quot;https://twitter.com/Simon_Hypixel/status/2014855542091485554?ref_src=twsrc%5Etfw&quot;&gt;January 24, 2026&lt;/a&gt;&lt;/blockquote&gt; 
 &lt;/div&gt;
 &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+---
+&lt;h3 id=&quot;a-community-built-to-create&quot;&gt;A Community Built to Create&lt;/h3&gt;
+&lt;p&gt;Beyond the individual patch notes, what’s truly exciting about Update 2 is the clear message it sends to the community: your work matters. Seeing a modder like Violet transition into creating official cosmetics shows that empowering creativity is a core part of Hytale’s DNA. With the team actively scouting for World Designers and Automation Experts directly from the player base, Orbis feels less like a product being handed down to us and more like a collaborative sandbox where the developers are handing us the keys, something that feels rare in the modern industry, and as I dive further into my own exploration of the modding toolkit, I can’t help but feel like we’re just getting started.&lt;/p&gt;
 &lt;div class=&quot;concept-callout source-box&quot;&gt;
 &lt;strong&gt;Sources:&lt;/strong&gt; Hytale Blog, @Simon_Hypixel
 &lt;a href=&quot;https://hytale.com/news/2026/1/hytale-patch-notes-update-2&quot;&gt;Patch Notes - Update 2&lt;/a&gt;
 &lt;a href=&quot;https://x.com/Simon_Hypixel&quot;&gt;Founder of Hypixel on Xitter&lt;/a&gt;
+&lt;/div&gt;</content>
+  </entry>
+  <entry>
+    <title>Shrinking the Tactile Experience: A Dive into Miniature Haptics</title>
+    <link href="https://minitigra.github.io/betweentabs/blog/miniaturehaptics/" />
+    <updated>2026-01-19T00:00:00Z</updated>
+    <id>https://minitigra.github.io/betweentabs/blog/miniaturehaptics/</id>
+    <content type="html">&lt;p&gt;Imagine you&#39;re 8 years old again, sitting in the back of a car, wiggling your fingers against the window to make a little hand-person perform sick parkour moves along the power lines.&lt;/p&gt;
+&lt;p&gt;It turns out that childhood habit is actually a recognized interaction technique called &lt;strong&gt;Finger Walking in Place (FWIP)&lt;/strong&gt;. While digging through &lt;strong&gt;CHI Conference&lt;/strong&gt; archives for a Human-Computer Interaction class last semester, I found a project from National Taiwan University that takes this imaginary play and turns it into a high-tech reality: &lt;strong&gt;Miniature Haptics&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;video-wrapper&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/joO-F2Gzlm0?si=6mNQtRoMlLU7tOul&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;The core idea? Instead of building massive, expensive treadmills to simulate walking in VR, why not just &amp;quot;shrink&amp;quot; the person and map their body onto their hand?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a huge fan of Ready Player One, I&#39;ve always viewed total digital immersion as the &amp;quot;north star&amp;quot; for tech. We’ve gotten great at showing digital worlds, but we’re still missing the &lt;em&gt;feeling&lt;/em&gt;. Most home systems are limited to basic controller vibrations with the same &amp;quot;buzz&amp;quot; representing a sword clashing or a car engine idling - completely different tactile experiences! &lt;strong&gt;Miniature Haptics&lt;/strong&gt; solves this by leveraging the &amp;quot;Embodiment Illusion&amp;quot; to make your hand feel what your character feels.&lt;/p&gt;
+&lt;h2 id=&quot;the-concept-finger-walking-as-embodiment&quot;&gt;The Concept: Finger Walking as Embodiment&lt;/h2&gt;
+&lt;p&gt;The researchers found that people are surprisingly good at mapping their mental skeletal model to their fingers. In their mapping study, there was a massive overlap in how users envisioned their &amp;quot;hand-person&amp;quot;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Index and Middle Fingers:&lt;/strong&gt; Become your legs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Back of the Hand:&lt;/strong&gt; Becomes your torso.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Wrist:&lt;/strong&gt; Becomes your head.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;concept-callout&quot;&gt;
+&lt;strong&gt;Why this matters:&lt;/strong&gt; By shrinking the scale, we can experience things that would be dangerous or impossible at human-scale, like the physical impact of a football hitting your head or walking across rapidly shifting terrain without 4D theaters or motion simulation theme park attractions.&lt;/div&gt;
+&lt;h2 id=&quot;kicking-miniature-footballs&quot;&gt;Kicking Miniature Footballs&lt;/h2&gt;
+&lt;p&gt;To test this, the team built a haptic display using &lt;strong&gt;6 micro linear actuators&lt;/strong&gt; with tiny footballs attached. When your virtual avatar &amp;quot;kicks&amp;quot; a ball, the actuator physically strikes your finger at the exact moment of impact.&lt;/p&gt;
+&lt;p&gt;In their study, this &amp;quot;Miniature Haptics&amp;quot; approach was &lt;strong&gt;2.3 times more preferred&lt;/strong&gt; than a standard vibrating game controller. Users reported that the physical sensation made the experience feel significantly more enjoyable, realistic, and intuitive compared to monotonic vibrations.&lt;/p&gt;
+&lt;h2 id=&quot;why-i-m-obsessed&quot;&gt;Why I&#39;m Obsessed&lt;/h2&gt;
+&lt;p&gt;As someone who spends a lot of time thinking about game design and animation, this opens up a huge door. Imagine playing a game where you don&#39;t just see your OC move but also you feel the weight of their steps through your fingertips as you navigate a forest.&lt;/p&gt;
+&lt;p&gt;As VR gaming and 3D Vtubers are on the rise, I see this as a great way to physically bridge the gap between ourselves and the digital worlds we build.&lt;/p&gt;
+&lt;div class=&quot;concept-callout source-box&quot;&gt;
+&lt;strong&gt;Source:&lt;/strong&gt; Wang et al. (2020). Miniature Haptics: Experiencing Haptic Feedback through Hand-based and Embodied Avatars. CHI &#39;20.
+&lt;p&gt;You can find the full paper and technical specifications on the ACM Digital Library here:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://dl.acm.org/doi/10.1145/3313831.3376292&quot;&gt;Miniature Haptics: Experiencing Haptic Feedback through Hand-based and Embodied Avatars&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;</content>
   </entry>
   <entry>
@@ -107,16 +145,16 @@
 &lt;p&gt;Hytale sets itself apart from traditional block games by leaning heavily into its RPG side. The controls are fluid, but the depth is in the Weapon Arts.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Combat Strategy:&lt;/strong&gt; Combat is no longer just about cooldown timings. Different weapons have distinct areas of attack, unique moves, and special abilities. For instance, holding the attack button (M1) performs a &lt;strong&gt;Charged Strike&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Quick on Your Feet:&lt;/strong&gt; Some special attacks have addtional effect, like the charged dagger strike, which grants a higher leap that you can use to scale higher terrain with the right timing for additional mobility.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quick on Your Feet:&lt;/strong&gt; Some special attacks have additional effect, like the charged dagger strike, which grants a higher leap that you can use to scale higher terrain with the right timing for additional mobility.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Signature Energy:&lt;/strong&gt; This is the core of Hytale&#39;s combat. Unlike a standard cooldown, your &lt;strong&gt;Signature Energy&lt;/strong&gt; increases with each successful strike. It only dissipates when you trigger your weapon&#39;s &lt;strong&gt;Special Attack&lt;/strong&gt; (Press Q) or when you switch items. This creates a rhythmic &amp;quot;build-and-spend&amp;quot; playstyle that gives every encounter the strategic feel Minecraft was missing.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Forgotten Temple:&lt;/strong&gt; This are is vital to Hytale’s primary progression. Turning in memories of creatures you&#39;ve encountered unlocks high-tier recipes, most notably backpack upgrades and portal gates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forgotten Temple:&lt;/strong&gt; This area is vital to Hytale’s primary progression. Turning in memories of creatures you&#39;ve encountered unlocks high-tier recipes, most notably backpack upgrades and portal gates.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;The World Zones:&lt;/strong&gt; Currently, Orbis consists of four playable biomes called Zones. Currently Zone 1 is the most polished, so you can find friendly NPC villages scattered throughout. However, interaction is still limited as you can only trade with the Tribe Leader and the same recipes can be accessed by talking to the Kweebec at the Forgotten Temple.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update1/pxR4Y_gCzs-1920.avif 1920w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update1/pxR4Y_gCzs-1920.webp 1920w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://minitigra.github.io/betweentabs/blog/hytale-update1/pxR4Y_gCzs-1920.jpeg&quot; alt=&quot;zones concept art&quot; width=&quot;1920&quot; height=&quot;1080&quot;&gt;&lt;/picture&gt;&lt;/p&gt;
 &lt;h3 id=&quot;2-survival-and-mechanics-the-reality-check&quot;&gt;2. Survival &amp;amp; Mechanics: The Reality Check&lt;/h3&gt;
 &lt;p&gt;Since Hytale is still in early access, some systems are noticeably more &amp;quot;raw&amp;quot; than others.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;The Wild Mount System:&lt;/strong&gt; There is currently no animal taming system. While you can mount and control horses (and skeleton horses!) without a saddle, they aren&#39;t &amp;quot;yours.&amp;quot; If you dismount, they will freak out and run away. You don&#39;t need a saddle to control the direction, but since you&#39;re unable to place blocks while ruiding, keeping a stallion as a companion is currently tedious and unsustainable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The Wild Mount System:&lt;/strong&gt; There is currently no animal taming system. While you can mount and control horses (and skeleton horses!) without a saddle, they aren&#39;t &amp;quot;yours.&amp;quot; If you dismount, they will freak out and run away. You don&#39;t need a saddle to control the direction, but since you&#39;re unable to place blocks while riding, keeping a stallion as a companion is currently tedious and unsustainable.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Magic &amp;amp; Essence:&lt;/strong&gt; Magic staffs exist, but they aren&#39;t infinite. They require Fire or Ice Essence to use. To keep your fire staff fueled, you’ll need to head to the volcanic biome and farm elemental enemies.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Fishing Traps:&lt;/strong&gt; Every so often your fishing traps will get jammed with garbage. While I’m hoping future updates will include ways to recycle them for other materials, they currently have no utility in the vanilla game.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;The Azure Kelp Mystery:&lt;/strong&gt; If you&#39;re looking to craft a portal, you&#39;ll notice one of the ingredients is Azure Kelp. Don&#39;t waste your time at the bottom of the ocean and find the next blue thing around - Azure Kelp is found exclusively in the lakes of the blue forest biomes.&lt;/li&gt;
@@ -131,7 +169,7 @@
 &lt;h3 id=&quot;4-what-s-new-in-update-1&quot;&gt;4. What’s New in Update 1?&lt;/h3&gt;
 &lt;p&gt;This wasn&#39;t just a bug-fix patch; it added the first wave of &amp;quot;World Content&amp;quot; since launch.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Underground Jungles:&lt;/strong&gt; Underground jungles now have DINOSAURS!!! They currently use placeholder behaviors, but they add a massive threat level to deep exploration. The biome will also feature other NPCS, bringing much-needed life to the world. (you&#39;ll need to generate new areas to see them!)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Underground Jungles:&lt;/strong&gt; Underground jungles now have DINOSAURS!!! They currently use placeholder behaviors, but they add a massive threat level to deep exploration. The biome will also feature other NPCs, bringing much-needed life to the world. (You&#39;ll need to generate new areas to see them!)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Elemental Immunities:&lt;/strong&gt; Fire-themed creatures (like those found beneath volcanoes) are now officially immune to fire damage and skeletons no longer take drowning damage.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Quality of Life:&lt;/strong&gt; You can now sleep starting at 7:30 PM (instead of 9:00 PM) and benches can pull materials from nearby chests from much further away.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Line of Sight:&lt;/strong&gt; As of Update 1, weapon attacks now properly check for line of sight, preventing &amp;quot;hitting through walls&amp;quot; glitches. This patch also specifically fixed an exploit where &amp;quot;Signature Attacks&amp;quot; could be used without the required energy, bringing the balance back to the intended &amp;quot;build-up&amp;quot; loop.&lt;/li&gt;
@@ -161,39 +199,6 @@
 &lt;a href=&quot;https://hytale.com/news/2026/1/hytale-is-finally-here&quot;&gt;Hytale is Finally Here!&lt;/a&gt;
 &lt;a href=&quot;https://hytale.com/news/2026/1/hytale-patch-notes-update-1&quot;&gt;Patch Notes - Update 1&lt;/a&gt;
 &lt;a href=&quot;https://x.com/Simon_Hypixel&quot;&gt;Founder of Hypixel on Xitter&lt;/a&gt;
-&lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>Shrinking the Tactile Experience: A Dive into Miniature Haptics</title>
-    <link href="https://minitigra.github.io/betweentabs/blog/firstpost/" />
-    <updated>2026-01-19T00:00:00Z</updated>
-    <id>https://minitigra.github.io/betweentabs/blog/firstpost/</id>
-    <content type="html">&lt;p&gt;Imagine you&#39;re 8 years old again, sitting in the back of a car, wiggling your fingers against the window to make a little hand-person perform sick parkour moves along the power lines.&lt;/p&gt;
-&lt;p&gt;It turns out that childhood habit is actually a recognized interaction technique called &lt;strong&gt;Finger Walking in Place (FWIP)&lt;/strong&gt;. While digging through &lt;strong&gt;CHI Conference&lt;/strong&gt; archives for a Human-Computer Interaction class last semester, I found a project from National Taiwan University that takes this imaginary play and turns it into a high-tech reality: &lt;strong&gt;Miniature Haptics&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class=&quot;video-wrapper&quot;&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/joO-F2Gzlm0?si=6mNQtRoMlLU7tOul&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;p&gt;&lt;strong&gt;The core idea? Instead of building massive, expensive treadmills to simulate walking in VR, why not just &amp;quot;shrink&amp;quot; the person and map their body onto their hand?&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;As a huge fan of Ready Player One, I&#39;ve always viewed total digital immersion as the &amp;quot;north star&amp;quot; for tech. We’ve gotten great at showing digital worlds, but we’re still missing the &lt;em&gt;feeling&lt;/em&gt;. Most home systems are limited to basic controller vibrations with the same &amp;quot;buzz&amp;quot; representing a sword clashing or a car engine idling - completely different tactile experiences! &lt;strong&gt;Miniature Haptics&lt;/strong&gt; solves this by leveraging the &amp;quot;Embodiment Illusion&amp;quot; to make your hand feel what your character feels.&lt;/p&gt;
-&lt;h2 id=&quot;the-concept-finger-walking-as-embodiment&quot;&gt;The Concept: Finger Walking as Embodiment&lt;/h2&gt;
-&lt;p&gt;TThe researchers found that people are surprisingly good at mapping their mental skeletal model to their fingers. In their mapping study, there was a massive overlap in how users envisioned their &amp;quot;hand-person&amp;quot;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Index and Middle Fingers:&lt;/strong&gt; Become your legs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Back of the Hand:&lt;/strong&gt; Becomes your torso.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;The Wrist:&lt;/strong&gt; Becomes your head.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;concept-callout&quot;&gt;
-&lt;strong&gt;Why this matters:&lt;/strong&gt; By shrinking the scale, we can experience things that would be dangerous or impossible at human-scale, like the physical impact of a football hitting your head or walking across rapidly shifting terrain without 4D theaters or motion simulation theme park attractions.&lt;/div&gt;
-&lt;h2 id=&quot;kicking-miniature-footballs&quot;&gt;Kicking Miniature Footballs&lt;/h2&gt;
-&lt;p&gt;To test this, the team built a haptic display using &lt;strong&gt;6 micro linear actuators&lt;/strong&gt; with tiny footballs attached. When your virtual avatar &amp;quot;kicks&amp;quot; a ball, the actuator physically strikes your finger at the exact moment of impact.&lt;/p&gt;
-&lt;p&gt;In their study, this &amp;quot;Miniature Haptics&amp;quot; approach was &lt;strong&gt;2.3 times more preferred&lt;/strong&gt; than a standard vibrating game controller. Users reported that the physical sensation made the experience feel significantly more enjoyable, realistic, and intuitive compared to monotonic vibrations.&lt;/p&gt;
-&lt;h2 id=&quot;why-i-m-obsessed&quot;&gt;Why I&#39;m Obsessed&lt;/h2&gt;
-&lt;p&gt;As someone who spends a lot of time thinking about game design and animation, this opens up a huge door. Imagine playing a game where you don&#39;t just see your OC move but also you feel the weight of their steps through your fingertips as you navigate a forest.&lt;/p&gt;
-&lt;p&gt;As VR gaming and 3D Vtubers are on the rise, I see this as a great way to physically bridge the gap between ourselves and the digital worlds we build.&lt;/p&gt;
-&lt;div class=&quot;concept-callout source-box&quot;&gt;
-&lt;strong&gt;Source:&lt;/strong&gt; Wang et al. (2020). Miniature Haptics: Experiencing Haptic Feedback through Hand-based and Embodied Avatars. CHI &#39;20.
-&lt;p&gt;You can find the full paper and technical specifications on the ACM Digital Library here:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://dl.acm.org/doi/10.1145/3313831.3376292&quot;&gt;Miniature Haptics: Experiencing Haptic Feedback through Hand-based and Embodied Avatars&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;</content>
   </entry>
 </feed>
